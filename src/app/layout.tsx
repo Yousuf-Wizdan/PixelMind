@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
 import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -41,6 +41,7 @@ export default function RootLayout({
         className={`${poppins.variable} ${inter.variable} antialiased`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );
