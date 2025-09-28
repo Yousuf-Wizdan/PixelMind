@@ -175,16 +175,7 @@ export default function HomePage() {
                   Try It Free Now
                 </Button>
               </Link>
-              <Link href="/dashboard">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="cursor-pointer gap-2 px-8 py-6 text-base border-purple-200 bg-white/60 backdrop-blur-sm hover:bg-purple-50 hover:border-purple-300 transition-all duration-200"
-                >
-                  <ImageIcon className="h-5 w-5" />
-                  View Demo
-                </Button>
-              </Link>
+              
             </div>
 
             <div className="mt-16 text-center">
