@@ -8,7 +8,7 @@ export async function middleware(request: NextRequest) {
         return NextResponse.redirect(new URL('/auth/sign-in', request.url));
     }
 
-    NextResponse.next();
+    return NextResponse.next();
 }
 
 export const config = {
