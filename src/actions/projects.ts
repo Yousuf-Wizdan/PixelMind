@@ -3,6 +3,7 @@
 import { db } from "@/lib/prisma"
 import { auth } from "@/lib/auth"
 import { headers } from "next/headers"
+import { cp } from "fs"
 
 interface CreateProjectData {
     imageUrl: string,
@@ -62,7 +63,7 @@ export async function getUserProjects() {
 
         const projects = await db.project.findMany({
             where: {
-                id: session?.user.id
+                userId: session?.user.id
             },
             orderBy: {
                 createdAt: "desc"
