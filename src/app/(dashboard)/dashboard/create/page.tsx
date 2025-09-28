@@ -781,7 +781,7 @@ export default function CreatePage() {
           ) : userProjects.length > 0 ? (
             <div className="mb-12">
               <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
-                {userProjects.slice(0, 12).map((project, _index) => (
+                {userProjects.slice(0, 12).map((project) => (
                   <div
                     key={project.id}
                     className="group relative cursor-pointer"

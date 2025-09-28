@@ -3,7 +3,7 @@
 import { db } from "@/lib/prisma"
 import { auth } from "@/lib/auth"
 import { headers } from "next/headers"
-import { cp } from "fs"
+
 
 interface CreateProjectData {
     imageUrl: string,

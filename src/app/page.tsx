@@ -3,14 +3,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import {
   Sparkles,
   Zap,
-  Star,
+
   ArrowRight,
-  ImageIcon,
+
   Scissors,
   Expand,
   Target,
   Download,
-  CheckCircle2,
+
   Play,
 } from "lucide-react";
 import Link from "next/link";
@@ -75,14 +75,14 @@ export default function HomePage() {
   //   },
   // ];
 
-  const pricingFeatures = [
-    "AI Background Removal",
-    "Smart Image Upscaling",
-    "Object-Focused Cropping",
-    "High-Quality Downloads",
-    "Fast Processing",
-    "Cloud Storage",
-  ];
+  // const pricingFeatures = [
+  //   "AI Background Removal",
+  //   "Smart Image Upscaling",
+  //   "Object-Focused Cropping",
+  //   "High-Quality Downloads",
+  //   "Fast Processing",
+  //   "Cloud Storage",
+  // ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50/30 to-teal-50/40">

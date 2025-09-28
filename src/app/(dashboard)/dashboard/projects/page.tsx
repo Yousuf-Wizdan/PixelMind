@@ -103,6 +103,7 @@ export default function ProjectsPage() {
     setFilteredProjects(filtered);
   }, [userProjects, searchQuery, sortBy]);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleProjectClick = (_project: Project) => {
     // Navigate to create page with project data - you can extend this to load the project
     router.push("/dashboard/create");
